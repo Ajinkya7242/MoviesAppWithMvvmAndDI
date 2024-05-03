@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "262832582460",
+    "project_id": "pirateflixmoviesmvvm",
+    "storage_bucket": "pirateflixmoviesmvvm.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:262832582460:android:ca0faeb32e570f7b6ab839",
+        "android_client_info": {
+          "package_name": "com.example.pirateflix"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBtunsH0QUGOJHxxUDI2op9mOEcBkAI68Q"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".authentication.LandingPageActivity"
+    android:background="@drawable/bg_login_banner">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/_270sdp"
+        android:background="@drawable/bg_login_input"
+        android:layout_alignParentBottom="true"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Review movies anytime anywhere"
+            android:textSize="@dimen/_18sdp"
+            android:layout_gravity="center_horizontal"
+            android:gravity="center_horizontal"
+            android:fontFamily="@font/inter_bold"
+            android:textColor="@color/white"
+            android:layout_marginTop="@dimen/_20sdp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="@dimen/_5sdp"
+            android:layout_marginHorizontal="@dimen/_5sdp"
+            android:fontFamily="@font/inter_semi_bold"
+            android:text="Explore the vast collection of blockbuster movies,\ntimeless classic and latest release."
+            android:textColor="@color/white"
+            android:textSize="@dimen/_12sdp"
+            android:layout_gravity="center_horizontal"
+            android:gravity="center_horizontal"
+            android:lineSpacingExtra="@dimen/_2sdp" />
+
+        <RelativeLayout
+            android:id="@+id/rl_login"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/bg_login_btn"
+            android:padding="@dimen/_12sdp"
+            android:layout_marginHorizontal="@dimen/_10sdp"
+            android:layout_marginTop="@dimen/_13sdp"
+            android:foreground="?attr/selectableItemBackground"
+            >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Login"
+                android:fontFamily="@font/inter_bold"
+                android:textColor="@color/black"
+                android:layout_centerInParent="true"
+                android:textSize="@dimen/_14sdp"/>
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/rl_sign_up"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="@dimen/_10sdp"
+            android:layout_marginTop="@dimen/_13sdp"
+            android:background="@drawable/bg_reg_btn"
+            android:padding="@dimen/_12sdp"
+            android:foreground="?attr/selectableItemBackground"
+            >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:fontFamily="@font/inter_bold"
+                android:text="Sign Up"
+                android:textColor="@color/white"
+                android:textSize="@dimen/_14sdp" />
+        </RelativeLayout>
+    </LinearLayout>
+</RelativeLayout>

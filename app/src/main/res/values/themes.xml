@@ -1,0 +1,20 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Base.Theme.Pirateflix" parent="Theme.Material3.DayNight.NoActionBar">
+        <item name="colorPrimary">@color/green_main</item>
+        <item name="colorPrimaryDark">@color/green_dark</item>
+        <item name="colorAccent">@color/accent_color</item>
+        <item name="android:windowBackground">@color/background_color</item>
+        <item name="android:textColorPrimary">@color/text_color</item>
+        <item name="android:textColorSecondary">@color/secondary_text_color</item>
+        <item name="android:divider">@color/divider_color</item>
+        <item name="android:statusBarColor">@color/status_bar_color</item>
+        <item name="android:navigationBarColor">@color/navigation_bar_color</item>
+    </style>
+    <style name="Theme.Pirateflix" parent="Base.Theme.Pirateflix" />
+
+    <style name="CustomTextInputLayout" parent="Widget.MaterialComponents.TextInputLayout.OutlinedBox">
+        <item name="boxStrokeColor">@color/green_main</item>
+        <item name="android:textColorHint">@color/green_main</item>
+    </style>
+</resources>
