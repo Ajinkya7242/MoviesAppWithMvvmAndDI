@@ -2,6 +2,23 @@ plugins {
     id("com.android.application")
     id("org.jetbrains.kotlin.android")
     id("com.google.gms.google-services")
+    id("org.sonarqube")
+}
+
+sonar {
+    properties {
+        property("sonar.projectKey", "pirateflix_1")
+        property("sonar.organization", "myOrganization")
+        property("sonar.language", "kotlin")
+        property("sonar.host.url", "http://localhost:9000")
+        property("sonar.sourceEncoding", "UTF-8")
+        property("sonar.projectName", "pirateflix")
+        property("sonar.token", "sqp_4a6a64d5a39d5fa3aef9b40464259f11b9cd7074")
+        property("sonar.sources", "src/main/")
+        property("sonar.gradle.skipCompile", "true")
+        property("sonar.exclusions", "**/generated/**, **/databinding/**")
+
+    }
 }
 
 android {
@@ -37,6 +54,10 @@ android {
 
     buildFeatures{
         viewBinding=true
+    }
+
+    lint {
+        disable += "NotificationPermission"
     }
 
 }
